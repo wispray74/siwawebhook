@@ -401,7 +401,7 @@ app.use((err, req, res, next) => {
 // ▶️ Jalankan server
 app.listen(port, () => {
     console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-    console.log('✅ Siwa Donation Webhook Server by Archie is running!');
+    console.log('✅ Siwa Donation Webhook Server is running!');
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
     console.log(`🌐 Port: ${port}`);
     console.log(`📡 Saweria:    http://localhost:${port}/saweria-webhook`);
